@@ -7,3 +7,5 @@ def generate_password(min_length, numbers=True, special_characters=True):
     special_characters = string.punctuation
 
     print(letters, digits, special_characters)
+
+generate_password(10)
